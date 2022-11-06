@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+div{
+    float: left;
+    width: auto;
+    height: 500px;
+    background: #FFF;
+    margin-right: 5px;
+    margin-top: 50px;
+}
+
+#table1{
+    width: 140px;
+    height: 132px;
+}
+#table1 td{
+    background: url('imagens/cronometro.png');
+    text-align: center;
+}
+
+button{
+    border-radius: 3px;
+    cursor: pointer;
+    width: 150px;
+    height: 60px;
+    color: rgb(12, 0, 11);
+    font-size: 14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(157, 86, 223);
+    border: 1px solid rgb(157, 86, 223);
+    margin-top: 88px;
+}
+button:hover{
+    background-color: rgb(115, 84, 143);
+    transition: 0.5s ease-out;
+    color: aliceblue;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.432);
+}
+
+#cenario{
+    float: left;
+    width: 600px;
+    height: 500px;
+    background: url('imagens/cenario.png');
+    background-position: bottom;
+}
+
+#cronometro{
+    color: red;
+    font-size: 30px;
+}
+
+#baloes_inteiros, #baloes_estourados{
+    font-size: 40px;
+}
